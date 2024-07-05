@@ -1,0 +1,26 @@
+{
+  "name": "@polyrepo/pure-functions",
+  "module": "src/index.ts",
+  "type": "module",
+  "polyCopy": {
+    "@polyrepo/template-bun": [
+      ".github",
+      "LICENSE",
+      ".gitignore",
+      "biome.json",
+      ".husky",
+      "tsconfig.json",
+      "tsconfig.ci.json"
+    ]
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "version": "1.0.0"
+}
