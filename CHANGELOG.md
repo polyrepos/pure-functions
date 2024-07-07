@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/polyrepos/pure-functions/compare/v1.0.1...v1.0.2) (2024-07-07)
+
+
+### Bug Fixes
+
+* update template ([b2a6ab7](https://github.com/polyrepos/pure-functions/commit/b2a6ab71920840134d432ef3f2db2f19fa41d785))
+
 ## [1.0.1](https://github.com/polyrepos/pure-functions/compare/v1.0.0...v1.0.1) (2024-07-07)
 
 
