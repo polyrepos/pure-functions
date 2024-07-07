@@ -17,10 +17,15 @@
     }
   },
   "scripts": {
-    "unbuild": "bunx unbuild"
+    "unbuild": "bunx unbuild",
+    "lint": "bunx @biomejs/biome format --write ./ && git add . && bunx @biomejs/biome lint ./",
+    "ts": "tsc --noemit --skipLibCheck --incremental --tsBuildInfoFile './node_modules/.tsbuildinfo'",
+    "pre-commit": "bun lint && bun ts && bun test",
+    "prepare": "husky install"
   },
   "polyCopy": {
     "@polyrepo/template-base": [
+      "package.json.merge",
       ".github",
       "LICENSE",
       ".gitignore",
@@ -31,12 +36,15 @@
     ]
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@biomejs/biome": "1.8.3",
+    "husky": "^9.0.11"
   },
   "peerDependencies": {
     "typescript": "^5.5.3"
   },
   "dependencies": {
     "dotenv": "^16.4.5"
-  }
+  },
+  "module": "src/index.ts"
 }
