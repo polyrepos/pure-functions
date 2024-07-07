@@ -1,10 +1,12 @@
 {
   "name": "@polyrepo/pure-functions",
+  "description": "A collection of pure functions",
+  "private": false,
   "version": "1.0.0",
   "module": "src/index.ts",
   "type": "module",
   "polyCopy": {
-    "@polyrepo/template-bun": [
+    "@polyrepo/template-base": [
       ".github",
       "LICENSE",
       ".gitignore",
