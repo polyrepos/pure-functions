@@ -2,7 +2,7 @@
   "name": "@polyrepo/pure-functions",
   "description": "A collection of pure functions",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",

@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.1](https://github.com/polyrepos/pure-functions/compare/v1.0.0...v1.0.1) (2024-07-07)
+
+
+### Bug Fixes
+
+* add unbuild ([05f1c9f](https://github.com/polyrepos/pure-functions/commit/05f1c9fcd1aa6f6abad92c66a514ae70adaa88e1))
+* update template ([f80873f](https://github.com/polyrepos/pure-functions/commit/f80873f6f93ab65225f0120b61403eb6f0898df7))
+* update template ([7f28848](https://github.com/polyrepos/pure-functions/commit/7f288488f167a29329ec40edaa0dba330f855abb))
+
 ## 1.0.0 (2024-07-07)
 
 
