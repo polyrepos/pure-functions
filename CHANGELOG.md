@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/polyrepos/pure-functions/compare/v1.0.2...v1.0.3) (2024-07-10)
+
+
+### Bug Fixes
+
+* add deep-merge ([0d9b960](https://github.com/polyrepos/pure-functions/commit/0d9b96061b84663da047cab46512090644255087))
+
 ## [1.0.2](https://github.com/polyrepos/pure-functions/compare/v1.0.1...v1.0.2) (2024-07-07)
 
 

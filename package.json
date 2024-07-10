@@ -1,6 +1,6 @@
 {
   "name": "@polyrepo/pure-functions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A collection of pure functions",
   "private": false,
   "main": "./dist/index.cjs",
